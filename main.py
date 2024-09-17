@@ -44,7 +44,7 @@ def word_game():
 
         # Создаём возможность закончить игру
         play_again = input("Хотите сыграть еще раз? д/н ")
-        if play_again != "y":
+        if play_again != "д":
             print("Спасибо за игру!")
             break
 
